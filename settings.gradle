@@ -1,0 +1,3 @@
+rootProject.name = 'Amazon_Viewer'
+include 'amazon_viewer_app'
+
