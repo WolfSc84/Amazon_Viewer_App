@@ -1,5 +1,17 @@
 package model;
 
+/**
+ * <h1></h1>
+ *Film es la clase base de la familia Films. Es del tipo abstract de manera que no pueden crearse instancias.<br>
+ *
+ * Contiene el metodo abstracto {@code view()} , que es obligatorio implementar para aquellas que pertenezca a la familia.<br>
+ *
+ * @author Santamaria Wolfgang
+ * @version 1.1
+ * @since 2020
+ *
+ */
+
 public abstract class Film {
 
     private String title;
