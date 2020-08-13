@@ -3,7 +3,7 @@ package model;
 /**
  * <h1></h1>
  *Film es la clase base de la familia Films. Es del tipo abstract de manera que no pueden crearse instancias.<br>
- *
+ *</h1>
  * Contiene el metodo abstracto {@code view()} , que es obligatorio implementar para aquellas que pertenezca a la familia.<br>
  *
  * @author Santamaria Wolfgang
@@ -11,7 +11,6 @@ package model;
  * @since 2020
  *
  */
-
 public abstract class Film {
 
     private String title;
@@ -87,6 +86,9 @@ public abstract class Film {
         this.viewed = viewed;
     }
 
+    /**
+     * {@code view()} es un metodo abstracto obligatorio a implementar.
+     */
     //Metodo abstract que se debe implementar en las clases donde se herede.
     public abstract void view();
 
